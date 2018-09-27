@@ -4,7 +4,6 @@
 *  Author: TemplateMag.com
 *  License: https://templatemag.com/license/
 */
-
 body {
   background-color: #f2f2f2;
   font-family: "Lato";
@@ -16,7 +15,6 @@ body {
 }
 
 /* Titles */
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway";
   font-weight: 300;
@@ -24,7 +22,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Paragraph & Typographic */
-
 p {
   line-height: 28px;
   margin-bottom: 25px;
@@ -35,7 +32,6 @@ p {
 }
 
 /* Links */
-
 a {
   color: #1abc9c;
   word-wrap: break-word;
@@ -72,7 +68,6 @@ hr {
 /*---------------------------------------------------
 3.1 Topbar
 ---------------------------------------------------*/
-
 #section-topbar {
   position: fixed;
   top: 0;
@@ -98,7 +93,6 @@ Top Bar
 
 By default, top navigation bar uses "fixed" position
 */
-
 #section-topbar ul#nav {
   display: inline-block;
   position: relative;
@@ -152,9 +146,7 @@ By default, top navigation bar uses "fixed" position
 /*---------------------------------------------------
 SECTION WRAPS
 ---------------------------------------------------*/
-
 /* Header Wrap */
-
 #headerwrap {
   background: url(../img/header-bg.jpg) no-repeat center top;
   margin-top: 60px;
@@ -185,7 +177,6 @@ SECTION WRAPS
 }
 
 /* Intnro Wrap */
-
 #intro {
   background: #2c3e50;
   padding-top: 60px;
@@ -239,7 +230,6 @@ SECTION WRAPS
 }
 
 /* Copyright Wrap */
-
 #copyrights {
   background: #222222;
   padding: 20px 0;
@@ -257,7 +247,6 @@ SECTION WRAPS
 }
 
 /* Global Values */
-
 .desc {
   padding-top: 50px;
 }
@@ -286,7 +275,6 @@ sm {
 }
 
 /* Contact Form */
-
 .contact-form label {
   color: #999;
 }
@@ -351,4 +339,9 @@ sm {
   padding: 15px;
   font-weight: 600;
   margin: 15px 0;
+}
+
+.img-responsive {
+  margin: auto;
+  padding: 0;
 }
