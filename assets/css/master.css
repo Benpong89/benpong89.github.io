@@ -1,0 +1,35 @@
+.row>.col-4 {
+  width: 25%;
+}
+
+.wrapper.style1 {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.wrapper.style2 {
+  padding-top: 5px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.lang_icons_container {
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang_icon_box {
+  height: 100px;
+  width: 100px;
+}
+
+.lang_icons {
+  padding: 10px;
+  height: auto;
+  max-width: 100%;
+}
