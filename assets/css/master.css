@@ -68,6 +68,10 @@ t {
   padding-bottom: 15px;
 }
 
+#titleBar a {
+  display: none !important;
+}
+
 /* .test {
   display: flex;
   flex-direction: column;
