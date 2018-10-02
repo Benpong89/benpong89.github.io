@@ -1,4 +1,4 @@
-.row>.col-4 {
+.row > .col-4 {
   width: 25%;
 }
 
@@ -70,6 +70,11 @@ t {
 
 #titleBar a {
   display: none !important;
+}
+
+.resume {
+  margin-left: 10px;
+  font-size: 12px;
 }
 
 /* .test {
