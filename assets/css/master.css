@@ -63,10 +63,11 @@ t {
 }
 
 .section_titles {
+  display: block;
   margin: 0;
   padding: 0;
   font-style: normal;
-  margin-top: -10px;
+  margin-top: 0px;
   text-align: center;
 }
 
@@ -80,8 +81,10 @@ t {
 }
 
 .resume {
-  margin-left: 10px;
-  font-size: 16px;
+  /* display: block; */
+  padding: 0;
+  font-size: 14px;
+  margin-top: 0px;
 }
 
 .aboutme {
@@ -94,8 +97,10 @@ a {
 
 .email {
   font-style: normal;
-  font-size: 15px;
-  margin-top: -10px;
+  font-size: 14px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .title {
