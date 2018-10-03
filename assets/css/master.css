@@ -3,7 +3,7 @@
 }
 
 .wrapper.style1 {
-  padding-top: 25px;
+  padding-top: 5px;
   padding-bottom: 15px;
   padding-left: 15px;
   padding-right: 15px;
@@ -11,7 +11,7 @@
 
 .wrapper.style2 {
   padding-top: 5px;
-  padding-bottom: 0px;
+  padding-bottom: 15px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -34,8 +34,8 @@
 }
 
 header {
-  padding-top: 12px !important;
-  padding-bottom: 12px !important;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 more {
@@ -56,15 +56,22 @@ t {
   font-weight: bold;
 }
 
+.repo-link {
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
 .section_titles {
   margin: 0;
   padding: 0;
   font-style: normal;
   margin-top: -10px;
+  text-align: center;
 }
 
 #footer {
-  padding-top: 15px;
+  padding-top: 0px;
   padding-bottom: 15px;
 }
 
@@ -74,10 +81,33 @@ t {
 
 .resume {
   margin-left: 10px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
-/* .test {
-  display: flex;
-  flex-direction: column;
-} */
+.aboutme {
+  padding: 10px;
+}
+
+a {
+  border-bottom: none !important;
+}
+
+.email {
+  font-style: normal;
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 20px;
+  padding-bottom: 25px !important;
+}
+
+#header {
+  padding: 0;
+  padding-top: 25px;
+}
